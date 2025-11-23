@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC414EE92ED2FD1500E31538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC414EE52ED2FD1500E31538 /* Assets.xcassets */; };
+		AC414EEA2ED2FD1500E31538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EE62ED2FD1500E31538 /* ContentView.swift */; };
+		AC414EEB2ED2FD1500E31538 /* ScambleWordsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EE72ED2FD1500E31538 /* ScambleWordsAppApp.swift */; };
+		AC414EEE2ED2FD1800E31538 /* ScambleWordsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EEC2ED2FD1800E31538 /* ScambleWordsAppTests.swift */; };
+		AC414EF22ED2FD1A00E31538 /* ScambleWordsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EEF2ED2FD1A00E31538 /* ScambleWordsAppUITests.swift */; };
+		AC414EF32ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EF02ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC414EC82ED2FD0700E31538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC414EB22ED2FD0600E31538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC414EB92ED2FD0600E31538;
+			remoteInfo = ScambleWordsApp;
+		};
+		AC414ED22ED2FD0700E31538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC414EB22ED2FD0600E31538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC414EB92ED2FD0600E31538;
+			remoteInfo = ScambleWordsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC414EBA2ED2FD0600E31538 /* ScambleWordsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScambleWordsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC414EC72ED2FD0700E31538 /* ScambleWordsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScambleWordsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC414ED12ED2FD0700E31538 /* ScambleWordsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScambleWordsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC414EE52ED2FD1500E31538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC414EE62ED2FD1500E31538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC414EE72ED2FD1500E31538 /* ScambleWordsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppApp.swift; sourceTree = "<group>"; };
+		AC414EEC2ED2FD1800E31538 /* ScambleWordsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppTests.swift; sourceTree = "<group>"; };
+		AC414EEF2ED2FD1A00E31538 /* ScambleWordsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppUITests.swift; sourceTree = "<group>"; };
+		AC414EF02ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC414EB72ED2FD0600E31538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC414EC42ED2FD0700E31538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC414ECE2ED2FD0700E31538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC414EB12ED2FD0600E31538 = {
+			isa = PBXGroup;
+			children = (
+				AC414EE82ED2FD1500E31538 /* ScambleWordsApp */,
+				AC414EED2ED2FD1800E31538 /* ScambleWordsAppTests */,
+				AC414EF12ED2FD1A00E31538 /* ScambleWordsAppUITests */,
+				AC414EBB2ED2FD0600E31538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC414EBB2ED2FD0600E31538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC414EBA2ED2FD0600E31538 /* ScambleWordsApp.app */,
+				AC414EC72ED2FD0700E31538 /* ScambleWordsAppTests.xctest */,
+				AC414ED12ED2FD0700E31538 /* ScambleWordsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC414EE82ED2FD1500E31538 /* ScambleWordsApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC414EE52ED2FD1500E31538 /* Assets.xcassets */,
+				AC414EE62ED2FD1500E31538 /* ContentView.swift */,
+				AC414EE72ED2FD1500E31538 /* ScambleWordsAppApp.swift */,
+			);
+			path = ScambleWordsApp;
+			sourceTree = "<group>";
+		};
+		AC414EED2ED2FD1800E31538 /* ScambleWordsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC414EEC2ED2FD1800E31538 /* ScambleWordsAppTests.swift */,
+			);
+			path = ScambleWordsAppTests;
+			sourceTree = "<group>";
+		};
+		AC414EF12ED2FD1A00E31538 /* ScambleWordsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC414EEF2ED2FD1A00E31538 /* ScambleWordsAppUITests.swift */,
+				AC414EF02ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift */,
+			);
+			path = ScambleWordsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC414EB92ED2FD0600E31538 /* ScambleWordsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC414EDB2ED2FD0700E31538 /* Build configuration list for PBXNativeTarget "ScambleWordsApp" */;
+			buildPhases = (
+				AC414EB62ED2FD0600E31538 /* Sources */,
+				AC414EB72ED2FD0600E31538 /* Frameworks */,
+				AC414EB82ED2FD0600E31538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScambleWordsApp;
+			packageProductDependencies = (
+			);
+			productName = ScambleWordsApp;
+			productReference = AC414EBA2ED2FD0600E31538 /* ScambleWordsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC414EC62ED2FD0700E31538 /* ScambleWordsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC414EDE2ED2FD0700E31538 /* Build configuration list for PBXNativeTarget "ScambleWordsAppTests" */;
+			buildPhases = (
+				AC414EC32ED2FD0700E31538 /* Sources */,
+				AC414EC42ED2FD0700E31538 /* Frameworks */,
+				AC414EC52ED2FD0700E31538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC414EC92ED2FD0700E31538 /* PBXTargetDependency */,
+			);
+			name = ScambleWordsAppTests;
+			packageProductDependencies = (
+			);
+			productName = ScambleWordsAppTests;
+			productReference = AC414EC72ED2FD0700E31538 /* ScambleWordsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC414ED02ED2FD0700E31538 /* ScambleWordsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC414EE12ED2FD0700E31538 /* Build configuration list for PBXNativeTarget "ScambleWordsAppUITests" */;
+			buildPhases = (
+				AC414ECD2ED2FD0700E31538 /* Sources */,
+				AC414ECE2ED2FD0700E31538 /* Frameworks */,
+				AC414ECF2ED2FD0700E31538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC414ED32ED2FD0700E31538 /* PBXTargetDependency */,
+			);
+			name = ScambleWordsAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ScambleWordsAppUITests;
+			productReference = AC414ED12ED2FD0700E31538 /* ScambleWordsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC414EB22ED2FD0600E31538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					AC414EB92ED2FD0600E31538 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AC414EC62ED2FD0700E31538 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AC414EB92ED2FD0600E31538;
+					};
+					AC414ED02ED2FD0700E31538 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AC414EB92ED2FD0600E31538;
+					};
+				};
+			};
+			buildConfigurationList = AC414EB52ED2FD0600E31538 /* Build configuration list for PBXProject "ScambleWordsApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC414EB12ED2FD0600E31538;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC414EBB2ED2FD0600E31538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC414EB92ED2FD0600E31538 /* ScambleWordsApp */,
+				AC414EC62ED2FD0700E31538 /* ScambleWordsAppTests */,
+				AC414ED02ED2FD0700E31538 /* ScambleWordsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC414EB82ED2FD0600E31538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC414EE92ED2FD1500E31538 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC414EC52ED2FD0700E31538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC414ECF2ED2FD0700E31538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC414EB62ED2FD0600E31538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC414EEA2ED2FD1500E31538 /* ContentView.swift in Sources */,
+				AC414EEB2ED2FD1500E31538 /* ScambleWordsAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC414EC32ED2FD0700E31538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC414EEE2ED2FD1800E31538 /* ScambleWordsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC414ECD2ED2FD0700E31538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC414EF22ED2FD1A00E31538 /* ScambleWordsAppUITests.swift in Sources */,
+				AC414EF32ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC414EC92ED2FD0700E31538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC414EB92ED2FD0600E31538 /* ScambleWordsApp */;
+			targetProxy = AC414EC82ED2FD0700E31538 /* PBXContainerItemProxy */;
+		};
+		AC414ED32ED2FD0700E31538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC414EB92ED2FD0600E31538 /* ScambleWordsApp */;
+			targetProxy = AC414ED22ED2FD0700E31538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC414ED92ED2FD0700E31538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC414EDA2ED2FD0700E31538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC414EDC2ED2FD0700E31538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.ScambleWordsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC414EDD2ED2FD0700E31538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.ScambleWordsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC414EDF2ED2FD0700E31538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.ScambleWordsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScambleWordsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScambleWordsApp";
+			};
+			name = Debug;
+		};
+		AC414EE02ED2FD0700E31538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.ScambleWordsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScambleWordsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScambleWordsApp";
+			};
+			name = Release;
+		};
+		AC414EE22ED2FD0700E31538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.ScambleWordsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScambleWordsApp;
+			};
+			name = Debug;
+		};
+		AC414EE32ED2FD0700E31538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamsi.ScambleWordsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScambleWordsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC414EB52ED2FD0600E31538 /* Build configuration list for PBXProject "ScambleWordsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC414ED92ED2FD0700E31538 /* Debug */,
+				AC414EDA2ED2FD0700E31538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC414EDB2ED2FD0700E31538 /* Build configuration list for PBXNativeTarget "ScambleWordsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC414EDC2ED2FD0700E31538 /* Debug */,
+				AC414EDD2ED2FD0700E31538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC414EDE2ED2FD0700E31538 /* Build configuration list for PBXNativeTarget "ScambleWordsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC414EDF2ED2FD0700E31538 /* Debug */,
+				AC414EE02ED2FD0700E31538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC414EE12ED2FD0700E31538 /* Build configuration list for PBXNativeTarget "ScambleWordsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC414EE22ED2FD0700E31538 /* Debug */,
+				AC414EE32ED2FD0700E31538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC414EB22ED2FD0600E31538 /* Project object */;
+}
