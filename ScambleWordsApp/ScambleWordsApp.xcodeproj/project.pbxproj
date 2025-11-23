@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AC414EE92ED2FD1500E31538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC414EE52ED2FD1500E31538 /* Assets.xcassets */; };
-		AC414EEA2ED2FD1500E31538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EE62ED2FD1500E31538 /* ContentView.swift */; };
+		AC414EEA2ED2FD1500E31538 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EE62ED2FD1500E31538 /* HomeScreen.swift */; };
 		AC414EEB2ED2FD1500E31538 /* ScambleWordsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EE72ED2FD1500E31538 /* ScambleWordsAppApp.swift */; };
 		AC414EEE2ED2FD1800E31538 /* ScambleWordsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EEC2ED2FD1800E31538 /* ScambleWordsAppTests.swift */; };
 		AC414EF22ED2FD1A00E31538 /* ScambleWordsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EEF2ED2FD1A00E31538 /* ScambleWordsAppUITests.swift */; };
 		AC414EF32ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EF02ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift */; };
+		AC414EF72ED301B400E31538 /* ScrambleWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EF62ED301B400E31538 /* ScrambleWordsViewModel.swift */; };
+		AC414EFA2ED3021B00E31538 /* ScrambledWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC414EF92ED3021B00E31538 /* ScrambledWordModel.swift */; };
+		AC6A4E582ED34E59002F2E68 /* Scrambler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A4E572ED34E59002F2E68 /* Scrambler.swift */; };
+		AC6A4E5A2ED350FD002F2E68 /* ScoreBoardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A4E592ED350FD002F2E68 /* ScoreBoardScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +41,15 @@
 		AC414EC72ED2FD0700E31538 /* ScambleWordsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScambleWordsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC414ED12ED2FD0700E31538 /* ScambleWordsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScambleWordsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC414EE52ED2FD1500E31538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC414EE62ED2FD1500E31538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC414EE62ED2FD1500E31538 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		AC414EE72ED2FD1500E31538 /* ScambleWordsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppApp.swift; sourceTree = "<group>"; };
 		AC414EEC2ED2FD1800E31538 /* ScambleWordsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppTests.swift; sourceTree = "<group>"; };
 		AC414EEF2ED2FD1A00E31538 /* ScambleWordsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppUITests.swift; sourceTree = "<group>"; };
 		AC414EF02ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScambleWordsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC414EF62ED301B400E31538 /* ScrambleWordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrambleWordsViewModel.swift; sourceTree = "<group>"; };
+		AC414EF92ED3021B00E31538 /* ScrambledWordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrambledWordModel.swift; sourceTree = "<group>"; };
+		AC6A4E572ED34E59002F2E68 /* Scrambler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrambler.swift; sourceTree = "<group>"; };
+		AC6A4E592ED350FD002F2E68 /* ScoreBoardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +100,11 @@
 		AC414EE82ED2FD1500E31538 /* ScambleWordsApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC6A4E562ED34E51002F2E68 /* Utils */,
+				AC414EF82ED3020500E31538 /* Model */,
+				AC414EF52ED301A100E31538 /* View */,
+				AC414EF42ED3017D00E31538 /* ViewModel */,
 				AC414EE52ED2FD1500E31538 /* Assets.xcassets */,
-				AC414EE62ED2FD1500E31538 /* ContentView.swift */,
 				AC414EE72ED2FD1500E31538 /* ScambleWordsAppApp.swift */,
 			);
 			path = ScambleWordsApp;
@@ -114,6 +125,39 @@
 				AC414EF02ED2FD1A00E31538 /* ScambleWordsAppUITestsLaunchTests.swift */,
 			);
 			path = ScambleWordsAppUITests;
+			sourceTree = "<group>";
+		};
+		AC414EF42ED3017D00E31538 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC414EF62ED301B400E31538 /* ScrambleWordsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC414EF52ED301A100E31538 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC414EE62ED2FD1500E31538 /* HomeScreen.swift */,
+				AC6A4E592ED350FD002F2E68 /* ScoreBoardScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC414EF82ED3020500E31538 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC414EF92ED3021B00E31538 /* ScrambledWordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6A4E562ED34E51002F2E68 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A4E572ED34E59002F2E68 /* Scrambler.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC414EEA2ED2FD1500E31538 /* ContentView.swift in Sources */,
+				AC6A4E582ED34E59002F2E68 /* Scrambler.swift in Sources */,
+				AC6A4E5A2ED350FD002F2E68 /* ScoreBoardScreen.swift in Sources */,
+				AC414EEA2ED2FD1500E31538 /* HomeScreen.swift in Sources */,
+				AC414EFA2ED3021B00E31538 /* ScrambledWordModel.swift in Sources */,
 				AC414EEB2ED2FD1500E31538 /* ScambleWordsAppApp.swift in Sources */,
+				AC414EF72ED301B400E31538 /* ScrambleWordsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
